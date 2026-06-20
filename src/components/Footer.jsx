@@ -180,6 +180,14 @@ const Footer = () => {
               >
                 <span className="relative z-10">Contact Us</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div
+                  role="tooltip"
+                  className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-3 w-72 -translate-x-1/2 rounded-lg border border-gray-700 bg-gray-800 p-3 text-left text-xs leading-relaxed text-gray-200 shadow-xl opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible"
+                >
+                  Have a question or facing an issue? Send a message to our
+                  admin team and we'll get back to you as soon as possible.
+                  <span className="absolute left-1/2 top-full -translate-x-1/2 border-4 border-transparent border-t-gray-800"></span>
+                </div>
               </Link>
             </div>
             <div className="text-center md:text-right">
